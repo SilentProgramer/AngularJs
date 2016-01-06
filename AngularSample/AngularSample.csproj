@@ -57,7 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\finance2.js" />
+    <Content Include="app\finance3.js" />
     <Content Include="app\Invoice1.js" />
+    <Content Include="app\invoice2.js" />
+    <Content Include="app\invoice3.js" />
     <Content Include="views\index00.html" />
     <Content Include="views\index01.html" />
     <Content Include="Scripts\angular.js" />
@@ -73,6 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="views\index02.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
