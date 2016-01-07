@@ -57,13 +57,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\controller1.js" />
+    <Content Include="app\controller2.js" />
     <Content Include="app\finance2.js" />
     <Content Include="app\finance3.js" />
     <Content Include="app\Invoice1.js" />
     <Content Include="app\invoice2.js" />
     <Content Include="app\invoice3.js" />
-    <Content Include="views\index00.html" />
-    <Content Include="views\index01.html" />
+    <Content Include="app\Scope1.js" />
+    <Content Include="app\Scope2.js" />
+    <Content Include="app\controller3.js" />
+    <Content Include="views\basic00.html" />
+    <Content Include="views\basic01.html" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\angular.min.js.map" />
@@ -77,7 +82,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\angular-mocks.js" />
-    <Content Include="views\index02.html" />
+    <Content Include="views\basic02.html" />
+    <Content Include="views\basic03.html" />
+    <Content Include="views\controller01.html" />
+    <Content Include="views\controller02.html" />
+    <Content Include="views\controller03.html" />
+    <Content Include="views\scope01.html" />
+    <Content Include="views\scope02.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
