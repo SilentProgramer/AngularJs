@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{6A2E166B-156F-4B46-B50C-8CEFB89FAC27}</ProjectGuid>
+    <ProjectGuid>{8BA27AE7-567B-467C-BF98-3BEFD0531404}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AngularSample</RootNamespace>
-    <AssemblyName>AngularSample</AssemblyName>
+    <RootNamespace>CodeAcademy.AngularJs</RootNamespace>
+    <AssemblyName>CodeAcademy.AngularJs</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,21 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\controller1.js" />
-    <Content Include="app\controller2.js" />
-    <Content Include="app\controller4.js" />
-    <Content Include="app\finance2.js" />
-    <Content Include="app\finance3.js" />
-    <Content Include="app\Invoice1.js" />
-    <Content Include="app\invoice2.js" />
-    <Content Include="app\invoice3.js" />
-    <Content Include="app\Scope1.js" />
-    <Content Include="app\Scope2.js" />
-    <Content Include="app\controller3.js" />
-    <Content Include="views\basic00.html" />
-    <Content Include="views\basic01.html" />
-    <Content Include="Scripts\angular.js" />
-    <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -82,20 +67,27 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\roboto.css" />
+    <Content Include="img\app-store.png" />
+    <Content Include="img\google-play.png" />
+    <Content Include="img\program-or-be-programmed.jpg" />
+    <Content Include="img\the-book-of-trees.jpg" />
+    <Content Include="js\app.js" />
+    <Content Include="js\controllers\MainController.js" />
     <Content Include="Scripts\angular-mocks.js" />
-    <Content Include="views\basic02.html" />
-    <Content Include="views\basic03.html" />
-    <Content Include="views\controller01.html" />
-    <Content Include="views\controller02.html" />
-    <Content Include="views\controller03.html" />
-    <Content Include="views\scope01.html" />
-    <Content Include="views\scope02.html" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="views\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="js\shared\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -109,9 +101,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>59965</DevelopmentServerPort>
+          <DevelopmentServerPort>52745</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:59965/</IISUrl>
+          <IISUrl>http://localhost:52745/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
