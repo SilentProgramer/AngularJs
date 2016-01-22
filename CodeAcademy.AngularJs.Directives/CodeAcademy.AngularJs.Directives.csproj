@@ -57,7 +57,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="css\main.css" />
+    <Content Include="img\forecast.jpg" />
+    <Content Include="img\gameboard.jpg" />
+    <Content Include="img\move.jpg" />
+    <Content Include="img\shutterbug.jpg" />
+    <Content Include="js\app.js" />
+    <Content Include="js\controllers\MainController.js" />
+    <Content Include="js\shared\angular.min.js.map" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -67,13 +74,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\angular-mocks.js" />
-    <Content Include="Scripts\angular.js" />
-    <Content Include="Scripts\angular.min.js" />
+    <Content Include="js\shared\angular-mocks.js" />
+    <Content Include="js\shared\angular.js" />
+    <Content Include="js\shared\angular.min.js" />
+    <Content Include="views\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="js\directives\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
