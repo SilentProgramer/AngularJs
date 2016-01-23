@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{471CF85B-B915-49C0-80CA-7D2E7ABDBE9D}</ProjectGuid>
+    <ProjectGuid>{EDF39992-8595-4501-9C28-3F8A6CF9B0D1}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CodeAcademy.AngularJs.Directives</RootNamespace>
-    <AssemblyName>CodeAcademy.AngularJs.Directives</AssemblyName>
+    <RootNamespace>CodeAcademy.AngularJs.Services</RootNamespace>
+    <AssemblyName>CodeAcademy.AngularJs.Services</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,22 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\main.css" />
-    <Content Include="img\forecast.jpg" />
-    <Content Include="img\gameboard.jpg" />
-    <Content Include="img\github.jpg" />
-    <Content Include="img\move.jpg" />
-    <Content Include="img\pinterest.jpg" />
-    <Content Include="img\shutterbugg.jpg" />
-    <Content Include="js\app.js" />
-    <Content Include="js\controllers\MainController.js" />
-    <Content Include="js\directives\appInfo.html" />
-    <Content Include="js\directives\appInfo.js" />
-    <Content Include="js\directives\installApp.html" />
-    <Content Include="js\directives\installApp.js" />
     <Content Include="js\shared\angular.min.js.map" />
-    <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -81,16 +66,21 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\main.css" />
+    <Content Include="img\bg.jpg" />
+    <Content Include="views\index.html" />
+    <Content Include="js\app.js" />
+    <Content Include="js\controllers\MainController.js" />
+    <Content Include="js\services\forecast.js" />
     <Content Include="js\shared\angular-mocks.js" />
     <Content Include="js\shared\angular.js" />
     <Content Include="js\shared\angular.min.js" />
-    <Content Include="views\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -104,9 +94,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>57362</DevelopmentServerPort>
+          <DevelopmentServerPort>50121</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:57363/</IISUrl>
+          <IISUrl>http://localhost:50121/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
