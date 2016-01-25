@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="js\shared\angular.min.js.map" />
+    <Content Include="offline\forecast.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -69,6 +70,10 @@
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\main.css" />
     <Content Include="img\bg.jpg" />
+    <Content Include="offline\img\clouds.svg" />
+    <Content Include="offline\img\rain.svg" />
+    <Content Include="offline\img\sun.svg" />
+    <Content Include="offline\README.txt" />
     <Content Include="views\index.html" />
     <Content Include="js\app.js" />
     <Content Include="js\controllers\MainController.js" />
@@ -81,6 +86,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
