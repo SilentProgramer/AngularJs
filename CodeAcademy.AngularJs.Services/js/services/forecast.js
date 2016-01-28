@@ -8,7 +8,7 @@
                     return err;
                 });
 
-    //if your internet connection is not working, you can use the below json file and images inside the "offline" folder 
+    //if your internet connection is not working, you can use the json file and images inside the "offline" folder 
     //and host it on a service on a local server using nodejs or asp.net
     //In the json file, make sure to change the icon property's value to the url of the image on the hosted local server
 
